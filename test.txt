@@ -1,0 +1,9 @@
+[1mRedis[0m
+  ID             = zQp7nGwQPpmebFOJV33                                                         
+  Name           = kong-cache                                                                  
+  Plan           = Free                                                                        
+  Primary Region = iad                                                                         
+  Read Regions   = None                                                                        
+  Eviction       = Enabled                                                                     
+  Private URL    = redis://default:f072e50ecb8643a0844c65915b65f4f7@fly-kong-cache.upstash.io  
+
