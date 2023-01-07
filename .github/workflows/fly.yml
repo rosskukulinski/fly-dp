@@ -17,5 +17,5 @@ jobs:
         - uses: superfly/flyctl-actions/setup-flyctl@master
         - run: flyctl secrets set --detach KONG_CLUSTER_CERT=$KONG_CLUSTER_CERT
         - run: flyctl secrets set --detach KONG_CLUSTER_CERT_KEY=$KONG_CLUSTER_CERT_KEY
-        - run: flyctl secrets set --detetch NASA_API=$NASA_API
+        - run: flyctl secrets set --detach NASA_API=$NASA_API
         - run: flyctl deploy --remote-only
