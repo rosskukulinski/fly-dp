@@ -17,6 +17,7 @@ kill_timeout = 5
   KONG_DNS_ORDER="LAST,SRV,A,AAAA,CNAME"
   KONG_KONNECT_MODE="on"
   KONG_VITALS="off"
+#  KONG_PROXY_LISTEN="0.0.0.0:8000 reuseport backlog=16384 http2, 0.0.0.0:8443 http2 ssl reuseport backlog=16384"
 
 [experimental]
   allowed_public_ports = []
