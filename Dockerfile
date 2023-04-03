@@ -1,4 +1,4 @@
-FROM kong/kong-gateway:3.1.1.1
+FROM kong/kong-gateway:3.2.1.0
 #3.1.1.1  3.1.0.0 
 USER root
 #COPY kong-fly.sh /kong-fly.sh
