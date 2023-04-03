@@ -3,4 +3,4 @@ FROM kong/kong-gateway:3.2.1.0
 USER root
 #COPY kong-fly.sh /kong-fly.sh
 #ENTRYPOINT /kong-fly.sh
-ENTRYPOINT /docker-entrypoint.sh kong docker-start
+#ENTRYPOINT /docker-entrypoint.sh kong docker-start
