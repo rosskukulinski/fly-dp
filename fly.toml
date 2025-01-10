@@ -26,6 +26,7 @@ kill_timeout = "5s"
   KONG_TRUSTED_IPS = "172.16.0.0/16"
   KONG_REAL_IP_HEADER = "fly-client-ip"
   KONG_DEDICATED_CONFIG_PROCESSING = "off"
+  KONG_WASM = "on"
   KONG_NGINX_LOCATION_PROXY_SET_HEADER = "Fly-Request-Id ''; proxy_set_header Fly-Region ''; proxy_set_header Fly-Tracestate ''; proxy_set_header Fly-Traceparent ''; proxy_set_header Fly-Forwarded-Ssl ''; proxy_set_header Fly-Forwarded-Proto ''; proxy_set_header Fly-Forwarded-Port ''; proxy_set_header Fly-Client-Ip ''"
 
 [[services]]
